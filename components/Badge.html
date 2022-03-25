@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left-nav">
+                <a href="../index.html" class="nav nav-logo">dawn UI</a>
+                
+            </div>
+            <div class="right-nav">
+                <ul class="list">
+                    <li><a href="../index.html" class="nav nav-pills">Home</a></li>
+                    <li><a href="./installation.html" class="nav nav-pills">Installation</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <div class="items">
+            <p class="subtext">Components</p>
+            <a href="./components/Alert.html" class="item">Alert</a>
+            <a href="./components/avatar.html" class="item">Avatar</a>
+            <a href="./components/Badge.html" class="item">Badges</a>
+            <a href="./components/Button.html" class="item">Button</a>
+            <a href="./components/Card.html" class="item">Card</a>
+            <a href="./components/dialogue.html" class="item">Dialogue</a>
+            <a href="./components/image.html" class="item">Image</a>
+            <a href="./components/input.html" class="item">Input</a>
+            <a href="./components/navbar.html" class="item">Navbar</a>
+            <a href="./components/rating.html" class="item">Ratings</a>
+            <a href="./components/slider.html" class="item">Slider</a>
+            <a href="./components/toast.html" class="item">Snackbar</a>
+            <a href="./components/grid.html" class="item">Grid</a>
+            <a href="./components/typography.html" class="item">Typography</a>
+        </div>
+    </div>
+    <div class="main-container-components">
+        <h2 class="heading">Badge</h2>
+        <p class="description">Badges display quick and easy status, text or number information to the user.</p>
+        <p>Here we offer two types of Badges- Status Badge and Notification Badge</p>
+        <h3 class="heading heading-avatar"> Status Badge</h3>
+        <p class="description description-avatar">To generate a status badge use the base class badge-status, and 
+            add any one of the following class to alter the status- status-available, status-idle, status-busy, and 
+            status-offline </p>
+        <div class="badge_container-main flex-center">
+           <!-- <iframe></iframe> -->
+           <div class="badge-container >
+            <img src="../images/Avatar/Avatar1.png" alt="Extra Large Size Avatar" class="avatar avatar-xl" />
+            <span class="badge-status status-available"></span>
+            </div>
+        
+            <div class="badge-container">
+            <img src="../images/Avatar/Avatar1.png" alt="Large Size Avatar" class="avatar avatar-lg" />
+            <span class="badge-status status-idle"></span>
+            </div>
+        
+            <div class="badge-container ">
+            <img src="../images/Avatar/Avatar1.png" alt="Medium Size Avatar" class="avatar avatar-md" />
+            <span class="badge-status status-busy"></span>
+            </div>
+        
+            <div class="badge-container ">
+            <img src="../images/Avatar/Avatar1.png" alt="Small Size Avatar" class="avatar avatar-sm" />
+            <span class="badge-status status-offline"></span>
+            </div>
+        
+            <div class="badge-container ">
+            <img src="../images/Avatar/Avatar1.png" alt="Extra Small Size Avatar" class="avatar avatar-xs" />
+            <span class="badge-status status-offline"></span>
+            </div>
+        </div>
+        <h3 class="heading heading-avatar"> Notification Badge</h3>
+        <p class="description description-avatar">To generate a Notofication badge. Follow any one of the necessary code as
+            as per use cases </p>
+         <div class="badge_container-main flex-center">
+                
+                <!-- Text with a small badge -->
+                <div class="badge_container">
+                    <div class="text_with_badge flex-center">Text with a badge<span class="badge badge-small">4</span></div>
+                </div>
+                
+                <!-- Text with a large Badge -->
+                <div class="badge_container">
+                    <div class="text_with_badge flex-center">Text with a large badge<span class="badge badge-large">1</span>
+                    </div>
+                </div>
+                
+                <!-- Button with badge on left -->
+                <div class="badge_container-btn flex-center">
+                    <div class="content">Button with a badge on the left. . .</div>
+                    <div class="btn_and_badge flex-center">
+                        <button class="btn-badge btn-left-badge">Action</button>
+                        <span class="badge badge-left">8</span>
+                    </div>
+                </div>
+                
+                <!-- Button toggles badge visibility -->
+                <div class="badge_container-btn flex-center">
+                    <div class="content">Button toggles badge visibility . .</div>
+                    <div class="btn_and_badge-toggle flex-center">
+                        <button class="btn-badge btn-toggle-badge">Hide</button>
+                        <span class="badge badge-toggle">7</span>
+                    </div>
+                </div>
+                
+                <!-- Icon with a badge -->
+                <div class="badge_container">
+                    <div class="text_with_badge flex-center">Icon with a badge . .
+                        <div class="icon"><i class="bi bi-house-door-fill home-icon"></i></div>
+                        <span class="badge badge-icon">4</span></div>
+        </div>
+    </div>
+        
+
+    
+</body>
+</html>
