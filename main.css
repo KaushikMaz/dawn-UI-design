@@ -12,8 +12,7 @@
     --primary-color: #33658A;
     --secondary-color: #8A5833 ;
     --text-color-black: #2b2b2b;
-    --dark-white: #f7f7f7
-    --body-background-color: #ffffff;
+    --body-background-color: #f7f7f7;
     --item-background-color: #c5c5c5;
     --hover-color: #7a5353;
     --box-shadow-down: 0px 0px 10px 4px rgb(0 0 0 / 5%);
@@ -34,4 +33,63 @@
     background-color: var(--body-background-color);
     color: var(--text-color-black);
     box-shadow: var(--box-shadow-down);
+  }
+  
+  .nav {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color-black);
+  }
+
+  .nav-logo {
+    color: var(--primary-color);
+  }
+  
+  .right-nav-active {
+    color: var(--primary-color);
+  }
+  
+  .nav:hover {
+    color: var(--primary-color);
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 2rem;
+  }
+  
+  .section {
+    margin-top: 6rem;
+    color: var(--text-color-black);
+  }
+  
+  .section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: var(--hover-color);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 3rem;
+  }
+  
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 3rem 5rem 3rem 5rem;
   }
