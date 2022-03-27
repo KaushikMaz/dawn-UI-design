@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/***** Defining Color Varibles *****/
+/******* Defining Color Varibles *****/
 :root {
     --primary-color: #33658A;
     --secondary-color: #8A5833 ;
@@ -15,8 +15,8 @@
     --body-background-color: #f7f7f7;
     --item-background-color: #c5c5c5;
     --hover-color: #7a5353;
-    --box-shadow-down: 0px 0px 10px 4px rgb(0 0 0 / 5%);
-    --box-shadow-up: 0px -4px 10px rgb(0 0 0 / 5%);
+    --box-shadow-down: 0px 0px 10px 4px rgb(0 0 0 / 7%);
+    --box-shadow-up: 0px -4px 10px rgb(0 0 0 / 7%);
     --box-shadow-card: 1px 2px 1px 2px rgba(0, 0, 0, 0.1);
   }
   
@@ -34,7 +34,7 @@
     color: var(--text-color-black);
     box-shadow: var(--box-shadow-down);
   }
-  
+
   .nav {
     text-decoration: none;
     font-size: 1.4rem;
@@ -92,4 +92,138 @@
     font-size: 1.5rem;
     font-weight: 500;
     margin: 3rem 5rem 3rem 5rem;
+  }
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+  
+  .btn {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background: transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--btn-background-color);
+  }
+  
+  .btn-secondary {
+    background-color: var(--primary-color);
+    color: var(--btn-background-color);
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--hover-color);
+  }
+  
+  
+  
+  .colored-text {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+  }
+  
+  
+  
+  .bi {
+    padding: 1rem;
+    color: var(--text-color-black);
+  }
+  
+  .bi:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Documentation  CSS*/
+  
+  .main-container {
+    background-color: var(--btn-background-color);
+    width: 15rem;
+  }
+  
+  .subtext {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--text-color-black);
+  }
+  
+  .items {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 1.2rem;
+    overflow: scroll;
+    overflow-y: auto;
+    height: 90vh;
+    overflow-x: hidden;
+    position: absolute;
+  }
+  
+  .item {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-color-black);
+  }
+  
+  .item:hover {
+    color: var(--primary-color);
+    background-color: var(--item-background-color);
+  }
+  
+  .item:focus {
+    color: var(--primary-color);
+    background-color: var(--item-background-color);
+  }
+  
+  /* Installation CSS */
+  
+  .code-snippet-display {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    padding: 1rem 0;
+    background-color: var(--btn-background-color);
+    border: 1px solid var(--primary-color);
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+  }
+  
+
+
+  /******* Adding Media Queries ******/
+
+@media screen and (max-width: 768px) {
+    .container {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .container {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      font-size: 1.2rem;
+    }
   }
