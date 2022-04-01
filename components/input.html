@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT | dawn-UI</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left-nav">
+                <a href="../index.html" class="nav nav-logo">dawn UI</a>
+                
+            </div>
+            <div class="right-nav">
+                <ul class="list">
+                    <li><a href="../index.html" class="nav nav-pills">Home</a></li>
+                    <li><a href="./installation.html" class="nav nav-pills">Installation</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <div class="sidebar">
+            <div class="items">
+                <p class="subtext">Components</p>
+                <a href="./Alert.html" class="item">Alert</a>
+                <a href="./avatar.html" class="item">Avatar</a>
+                <a href="./Badge.html" class="item">Badges</a>
+                <a href="./Button.html" class="item">Button</a>
+                <a href="./Card.html" class="item">Card</a>
+                <a href="./Grid.html" class="item">Grid</a>
+                <a href="./image.html" class="item">Image</a>
+                <a href="./input.html" class="item">Input</a>
+                <a href="./list.html" class="item">List</a>
+                <a href="./modal.html" class="item">Modal</a>
+            </div>
+        </div>
+        <div class="main-container-components">
+            <h2 class="heading">Input</h2>
+            <p class="description">Inputs are necessary for user interaction with the website by allowing users to input information of various types and then save the data to the server accordingly.</p>
+            <p class="description"> We offer  following types of input components- Default Inputs, Inline Inputs, Inputs with success validations, Inputs with warning validations, Inputs with error validations, and Textbox.</p>
+            
+            
+            <!-------Default Input------>
+            <h3 class="heading heading-avatar">Default Input</h3>
+            <p class="description description-avatar">To generate a default input, use the base <i>class input</i> along with the supporting class <i>input-default</i>.</p>
+            <iframe class="code-snippet-display">
+            </iframe>
+            <div class="badge_container-main flex-center">
+                <div class="input-group input-default">
+                    <label class="text-label flex--col" for="input-name">
+                        Name
+                        <input type="text" id="input-name" class="input-text" placeholder="Enter your name">
+                    </label>
+                    <span class="text-message"></span>
+                </div>
+            </div>
+            
+            
+            <!---------Inline Input-------->
+            <h3 class="heading heading-avatar">Inline Input</h3>
+            <p class="description description-avatar">To generate an inline input, use the base class <i>input-group</i> along with the supporting class <i>input-inline</i>.</p>
+            <p class="description">Copy the code below to use an inline input component.</p>
+            <iframe class="code-snippet-display">
+            </iframe>
+            
+            <div class="badge_container-main flex-center">
+                <div class="input-group input-default input-inline">
+                    <label class="text-label flex--row flex--align-center" for="input-inline-name">
+                        Name
+                        <input type="text" id="input-inline-name" class="input-text" placeholder="Enter your name.">
+                    </label>
+                    <span class="text-message "></span>
+                </div>
+                
+            </div>
+
+
+            <!---------Input with Success Valiation-------->
+            <h3 class="heading heading-avatar">Input with Success validation</h3>
+            <p class="description description-avatar">To generate an input that converys a success validation, use the base class input-group along with the supporting class input-success.</p>
+                
+            <p class="description">Copy the code below to use an input with success validation.</p>
+            <iframe class="code-snippet-display">
+            </iframe>
+             
+            <div class="badge_container-main flex-center">
+                <div class="input-group input-success">
+                    <label class="text-label flex--col" for="input-strong-password">
+                        Password
+                        <input type="password" id="input-strong-password" class="input-text" placeholder="Enter your password...">
+                    </label>
+                    <span class="text-message">Strong Password</span>
+                </div>
+                
+                 
+            </div>
+
+
+            <!---------Input with Warning Valiation-------->
+            <h3 class="heading heading-avatar">Input with Warning validation</h3>
+            <p class="description description-avatar">To generate an input that conveys a warning validation, we use the base class <i>input-group</i> class along with the supporting class <i>input-warning</i>.
+            </p>
+                
+            <p class="description">Copy the code below to use an input with Warning validation.</p>
+            <iframe class="code-snippet-display">
+            </iframe>
+             
+            <div class="badge_container-main flex-center">
+                <div class="input-group input-warning ">
+                    <label class="text-label flex--col" for="input-weak-password">
+                        Password
+                        <input type="password" id="input-weak-password" class="input-text" placeholder="Enter your password">
+                    </label>
+                    <span class="text-message">Weak Password</span>
+                </div>
+            </div>
+
+
+            <!---------Input with error Valiation-------->
+            <h3 class="heading heading-avatar">Input with Error validation</h3>
+            <p class="description description-avatar">To generate an input that conveys an error validation, we use the base class <i>input-group</i> class along with the supporting class <i>input-error</i>.
+            </p>
+                
+            <p class="description">Copy the code below to use an input with an error validation.</p>
+            <iframe class="code-snippet-display">
+            </iframe>
+             
+            <div class="badge_container-main flex-center">
+                <div class="input-group input-error m-1">
+                    <label class="text-label flex--col" for="input-error-email">
+                        Email
+                        <input type="email" id="input-error-email" class="input-text " placeholder="Enter your email">
+                    </label>
+                    <span class="text-message">Incorrect Email</span>
+                </div>
+            </div>
+
+
+            <!---------Deafult Textbox-------->
+            <h3 class="heading heading-avatar">Default Textbox</h3>
+            <p class="description description-avatar">This input component allows users to enter multiple lines of text.</p>
+            <p class="description">To generate a textbox use the base class input-group along with the supporting classes textbox-default and textbox-group.
+            </p>
+                 
+            <p class="description">Copy the code below to use a default textbox.</p>
+            <iframe class="code-snippet-display">
+            </iframe>
+              
+            <div class="badge_container-main flex-center">
+                <div class="input-group textbox-default textbox-group ">
+                    <label for="input-comments" class="text-label">Comments</label>
+                    <textarea id="input-coments" class="input-textbox " rows="10" cols="30" placeholder="Enter your comments..."></textarea>
+                    <span class="text-message"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+            
+
+
+
+
+
+
+
+
+    
+
+</body>
+</html>
