@@ -3,6 +3,7 @@
 @import url("../styles/avatar.css");
 @import url("../styles/alert.css");
 @import url("../styles/badge.css");
+@import url("../styles/button.css");
 
 /******* Defining CSS Varibles *****/
 :root {
@@ -167,6 +168,40 @@ iframe,img {
   border: 1px solid var(--primary-color);
   margin: 1rem 0;
   border-radius: 0.3rem;
+}
+
+
+.btn {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}
+.btn:hover{
+  color:var(--secondary-color)
+}
+
+.btn-primary {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--btn-background-color);
+}
+
+.bi {
+  padding: 1rem;
+  color: var(--primary-color);
+}
+
+.bi:hover {
+  color: var(--secondary-color);
 }
 
 /******* Adding Media Queries ******/
