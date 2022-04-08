@@ -1,0 +1,33 @@
+.img-responsive {
+    max-inline-size: 100%;
+    block-size: auto;
+    font-size: inherit;
+    display: block;
+    max-width: 100%;
+}
+
+.round-corner {
+    border-radius: var(--br-5);
+    -webkit-border-radius: var(--br-5);
+    -moz-border-radius: var(--br-5);
+    -ms-border-radius: var(--br-5);
+    -o-border-radius: var(--br-5);
+}
+
+.img-round {
+    width: 250px;
+    height: 250px;
+    object-position: center center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media screen and (max-width: 400px) {
+    .img-round {
+        width: 50vw;
+        height: 50vw;
+    }
+}
