@@ -1,0 +1,47 @@
+.list {
+    max-width: 100%;
+    list-style-position: inside;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.list-head {
+    font-weight:600;
+}
+
+.list-item, li {
+    font-size: var(--text-sm);
+}
+
+.list-spaced li::marker {
+    color: var(--primary-color);
+}
+
+.list-spaced li:hover {
+    color: var(--primary-color);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.list-stacked {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-stacked .list-head {
+    background-color: var(--text-color-black);
+    color: var(--bg-color);
+}
+
+.list-stacked li:hover {
+    background-color: var(--bg-color);
+}
+
+.list-inline .list-item, .list-inline li {
+    display: inline-block;
+}
