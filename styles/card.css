@@ -63,6 +63,10 @@
     background-color: var(--body-background-color);
     cursor: pointer;
   }
+
+  .card-shadow {
+    box-shadow: 0 0 0.75rem 0.25rem var(--dark);
+}
   
   .card-icons {
     display: flex;
@@ -74,11 +78,15 @@
   }
   
   .fas {
-    color: var(--text-color-black);
+    color: var(--primary-color);
   }
   
   .fas:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .card-btn:hover{
+    color:var(--secondary-color);
+
   }
   
   /* cards overlay */
