@@ -19,6 +19,14 @@
     border-radius: 1rem;
     border: 1.5px solid var(--primary-color);
   }
+
+  .card-container-Horizontal {
+    background-color: var(--body-background-color);
+    box-shadow: var(--box-shadow-card);
+    width: 40rem;
+    border-radius: 1rem;
+    border: 1.5px solid var(--primary-color);
+  }
   
   .card-horizontal {
     display: flex;
