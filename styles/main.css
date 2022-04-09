@@ -113,10 +113,6 @@
   padding: 1.3rem;
   border: 2px solid var(--primary-color);
   border-radius: 5rem;
-  -webkit-border-radius:5rem;
-  -moz-border-radius: 5rem;
-  -ms-border-radius: 5rem;
-  -o-border-radius: 5rem;
 }
 
 .main-container-components {
@@ -128,6 +124,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   border-bottom: 1px solid var(--primary-color);
+  
 }
 
 .items {
