@@ -11,12 +11,13 @@
     margin: 0.5rem;
   }
   
+  
   .card-container {
     background-color: var(--body-background-color);
     box-shadow: var(--box-shadow-card);
     width: 22rem;
     border-radius: 1rem;
-    border: 1px solid var(--primary-color);
+    border: 1.5px solid var(--primary-color);
   }
   
   .card-horizontal {
