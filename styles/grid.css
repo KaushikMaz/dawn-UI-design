@@ -4,21 +4,16 @@
 
 .col-2 {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-1);
+    gap: 1rem;
 }
 
 .col-3 {
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-1);
+    gap: 1rem;
 }
 
 .col-4 {
     grid-template-columns: repeat(4, 1fr);
-}
-
-
-.grid {
-    display: grid;
 }
 
 .grid-autofit {
@@ -37,21 +32,6 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.grid-5 {
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.grid-6 {
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.grid-row-4 {
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-row-3 {
-    grid-template-rows: repeat(3, 1fr);
-}
 
 @media screen and (max-width: 960px) {
     .col-4 {
