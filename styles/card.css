@@ -15,7 +15,7 @@
   .card-container {
     background-color: var(--body-background-color);
     box-shadow: var(--box-shadow-card);
-    width: 22rem;
+    width: 20rem;
     border-radius: 1rem;
     border: 1.5px solid var(--primary-color);
   }
@@ -31,6 +31,7 @@
     max-inline-size: 100%;
     block-size: auto;
     border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
   }
   
   .image-horizontal {
