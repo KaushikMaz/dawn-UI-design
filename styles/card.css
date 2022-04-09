@@ -149,3 +149,17 @@
     left: 0%;
     text-align: center;
   }
+  @media screen and (max-width: 400px) {
+    .card-horizontal {
+        max-height: max-content;
+        padding: 0;
+    }
+    
+    .card-horizontal .card-main {
+        flex-direction: column;
+    }
+    
+    .card-horizontal .card-content {
+        margin: 0;
+    }
+}
