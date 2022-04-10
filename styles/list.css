@@ -1,6 +1,7 @@
-.list {
+.list1 {
     max-width: 100%;
     list-style-position: inside;
+    
 }
 
 .list-style-none {
@@ -9,10 +10,13 @@
 
 .list-head {
     font-weight:600;
+    font-size: var(--text-lg);
 }
 
 .list-item, li {
     font-size: var(--text-sm);
+    padding:0.5rem;
+    color:var(--primary-color);
 }
 
 .list-spaced li::marker {
@@ -20,7 +24,7 @@
 }
 
 .list-spaced li:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -34,7 +38,7 @@
 }
 
 .list-stacked .list-head {
-    background-color: var(--text-color-black);
+    background-color: var(--secondary-color);
     color: var(--bg-color);
 }
 
