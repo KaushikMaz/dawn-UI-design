@@ -16,7 +16,8 @@
 .list-item, li {
     font-size: var(--text-sm);
     padding:0.5rem;
-    color:var(--primary-color);
+    color:var(--text-color-black);
+    font-weight:600;
 }
 
 .list-spaced li::marker {
@@ -43,7 +44,8 @@
 }
 
 .list-stacked li:hover {
-    background-color: var(--bg-color);
+    background-color: var(--primary-color);
+    color:var(--dark-white);
 }
 
 .list-inline .list-item, .list-inline li {
