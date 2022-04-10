@@ -183,6 +183,8 @@ iframe,img {
   font-size: inherit;
   display: inline-block;
 }
+
+
 .code-snippet-container {
   margin: 2rem auto;
   padding: 1rem 0;
@@ -191,18 +193,6 @@ iframe,img {
   font-weight: 300;
   
   }
-
-.code-display{
-  margin-top: 0.5rem;
-  width: 100%;
-  min-height: 500px !important;
-  padding: 1rem ;
-  overflow:hidden;
-  transform:scale(1);
-  border: 1px solid var(--primary-color);
-  border-radius: 5rem;
-}
-
 
 
 .btn {
