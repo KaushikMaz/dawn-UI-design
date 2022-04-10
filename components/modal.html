@@ -47,30 +47,32 @@
 
             <!-------Simple Modal------>
             <h3 class="heading heading-avatar">Simple Modal</h3>
-            <p class="description description-avatar">A simple modal consists of a text conveying information along with action buttons.</p>
-            <p class="description">To generate a modal use the base class modal-container and active-modal.
-               <span>Add the modal text and action buttons within the modal-content container.</span> 
-               And use the following classes <i>modal-text</i> and <i>modal-action-buttons</i> - for the modal text and action buttons respectively.</p>
+            <p class="description ">A simple modal consists of a text conveying information along with action buttons.
+            To generate a modal use the base class <i>modal-container</i> and add the <i>modal-content</i> and <i>modal-buttons</i> within the <i>modal-container</i>
+               
 
-            <iframe class="code-snippet-display">
-            </iframe>
             <div class="avatar-container">
-                <div class="modal-container active-modal">
-                    <div class="modal-content ">
-                        <div class="modal-text text-reg">
-                            Discard draft?
-                        </div>
-                        <button class="btn btn-icon btn-primary btn-modal-close">
-                            <span class="icon">
-                                <i class="fas fa-times"></i>
-                            </span>
-                        </button>
-                        <div class="modal-action-buttons">
-                            <button class="btn btn-primary btn-outline text-sm">Cancel</button>
-                            <button class="btn btn-primary text-sm">Discard</button>
-                        </div>
+                <div class="flex-center modal-container">
+                    <div class="modal-content">
+                        <h3 class="modal-heading">Do you want to Exit?</h3>
+                        <p class="modal-description">Please confirm that you really want to exit from this wonderfull app. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Soluta, ipsam.
+                        </p>
+                    </div>
+                    <div class="modal-buttons">
+                        <button class="modal-button modal-button-yes">Yes</button>
+                        <button class="modal-button modal-button-no">No</button>
                     </div>
                 </div>
+            </div>
+
+            <div class="code-snippet-container">
+                <p>Copy the code below to use a simple Modal</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28138%2C88%2C51%2C1%29&t=theme%3A5klpf3lil4v&wt=none&l=htmlmixed&width=876&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-center%2520modal-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2509%253Ch3%2520class%253D%2522modal-heading%2522%253EDo%2520you%2520want%2520to%2520Exit%253F%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-description%2522%253EPlease%2520confirm%2520that%2520you%2520really%2520want%2520to%2520exit%2520from%2520this%2520wonderfull%2520app.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Soluta%252C%2520ipsam.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522modal-button%2520modal-button-yes%2522%253EYes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-button%2520modal-button-no%2522%253ENo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
         </div>        
     </div>
